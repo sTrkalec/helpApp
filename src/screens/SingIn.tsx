@@ -9,7 +9,7 @@ import { Button } from '../components/Button';
 
 export function SingIn() {
 
-    const [name, setName] = useState("Joao");
+    const [name, setName] = useState("");
     const [password, setPassword] = useState("");
     const { colors } = useTheme();
 
